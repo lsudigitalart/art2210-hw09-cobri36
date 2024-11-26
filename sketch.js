@@ -130,11 +130,11 @@ function drawRoad() {
     if (car1.x > finishLineX) {
       return "Pink Car Wins!";
     } else if (car2.x > finishLineX) {
-      return "Light Blue Car Wins!";
+      return "Blue Car Wins!";
     } else if (car3.x > finishLineX) {
-      return "Sage Green Car Wins!";
+      return "Green Car Wins!";
     } else if (car4.x > finishLineX) {
-      return "Yellow-Orange Car Wins!";
+      return "Gold Car Wins!";
     }
   }
 
